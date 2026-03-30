@@ -1,7 +1,10 @@
 # conversion-analysis
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/45a9840c-c35c-4671-be87-d57c13a4dbe6" />
+
+
 Funnel conversion analysis using SQL and Excel dashboard
-Проект - мобильное приложение. Проблема - снижение конверсии в продукте с 10% до 7%. 
-Цель была определить где произошла просадка и сформировать гипотезы
+Проект - мобильное приложение. Проблема Конверсия снизилась с 10% до 7%.
+Основная просадка произошла на этапе app_open → add_to_cart (–40%).
 
 user_id	event_name	event_time		country
 1	      app_open	    ...		         UZ
@@ -51,6 +54,5 @@ purchase        300
 Используемые инструменты - sql, excel 
 
 
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/45a9840c-c35c-4671-be87-d57c13a4dbe6" />
 
 
