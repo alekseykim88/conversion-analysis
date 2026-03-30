@@ -49,3 +49,8 @@ purchase        300
 Для визуализации были использованы 
 воронка пользователей и конверсия
 Используемые инструменты - sql, excel 
+
+
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/45a9840c-c35c-4671-be87-d57c13a4dbe6" />
+
+
