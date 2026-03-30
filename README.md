@@ -33,11 +33,11 @@ purchase_users * 1.0 / add_to_users AS conversion_purchase
 FROM ( SELECT COUNT(DISTINCT CASE WHEN event_name = 'app_open' THEN user_id END) AS app_users, COUNT(DISTINCT CASE WHEN event_name = 'add_to_cart' THEN user_id END) AS add_to_users, COUNT(DISTINCT CASE WHEN event_name = 'purchase' THEN user_id END) AS purchase_users FROM events ) t;
 # добавляю *1.0 чтобы изменить типа данных с int на float. использую подзапрос с алиасами для возвращения конверсии пользователей добавляющих товар в корзину, покупателей и общей конверсии
 
-Результаты
+#Результаты
 Этап	      Пользователи
-*app_open	     1000
-*add_to_cart   	600
-*purchase        300
+app_open	     1000
+add_to_cart   	600
+purchase        300
 
 конверсия добавления в корзину - 60%
 тотал конверсия - 30%
