@@ -35,9 +35,9 @@ FROM ( SELECT COUNT(DISTINCT CASE WHEN event_name = 'app_open' THEN user_id END)
 
 #Результаты
 Этап	      Пользователи
-app_open	     1000
-add_to_cart   	600
-purchase        300
+app_open	=     1000
+add_to_cart =  	600
+purchase     =   300
 
 конверсия добавления в корзину - 60%
 тотал конверсия - 30%
